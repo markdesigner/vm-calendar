@@ -62,7 +62,7 @@ export default {
       this.isShowCalendar = !this.isShowCalendar;
     },
     mapDayTitle(day) {
-      const dayName = ["一", "二", "三", "四", "五", "六", "日"];
+      const dayName = ["日", "一", "二", "三", "四", "五", "六", ""];
       return dayName[day - 1];
     },
     generateMonthMap() {
